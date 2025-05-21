@@ -1,5 +1,5 @@
 // leetcode
-
+package LinearSearch;
 import java.util.ArrayList;
 import java.util.Collections;
 
