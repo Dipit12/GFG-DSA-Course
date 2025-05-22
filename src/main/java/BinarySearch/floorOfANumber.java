@@ -10,6 +10,10 @@ public class floorOfANumber {
         int start = 0;
         int end = arr.length - 1;
 
+        if(arr[end] < target){
+            return -1;
+        }
+
         while(start <= end){
             int middle  = start + (end - start)/2;
 
