@@ -18,7 +18,7 @@ public class firstAndLastPos {
                 } else if (nums[mid] < target) {
                     start = mid + 1;
                 } else {
-                    // we have found the middle element here
+                    // we have found the target element here
                     int left = mid;
                     int right = mid;
 
